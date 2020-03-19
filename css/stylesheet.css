@@ -7,8 +7,13 @@ header > div {
   width:100vw;
   margin:0px;
   justify-content:space-between;
+  background-color: rgb(32, 101, 136);
+  border: 1px solid rgb(32, 101, 136);
 }
-
+#redd{
+  background-color: red;
+  color:white;
+}
 *{
   box-sizing:border-box;
 }
@@ -41,6 +46,7 @@ p {
 }
 nav {
 flex-basis:650px;
+color: white
 
 }
 
@@ -53,19 +59,21 @@ nav ul {
   flex-basis:850px;
   align-items: right;
   margin:0px;
+  color: white
 
 }
 
 nav a {
   text-decoration: none;
   color: black;
+  color: white
 
 }
 
 .blackHeart {
   width: 20px;
   margin-right: 1rem;
-
+  color: white;
 }
 .npm{
   flex:none;
